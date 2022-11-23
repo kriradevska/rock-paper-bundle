@@ -1,6 +1,6 @@
 import './styles.css';
 
-import {choices, getChoices, getComputerChoice, getOutcome} from './game.js';
+import {getChoices, getComputerChoice, getOutcome} from './game.js';
 import {clearChildren} from './utils.js';
 
 // images

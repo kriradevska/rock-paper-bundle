@@ -5,7 +5,7 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/i, //for css files
-                use: ['style/loader', 'css-loader']
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.png$/i, //for .png images
@@ -17,4 +17,4 @@ module.exports = {
             }
         ]
     }
-}
+};

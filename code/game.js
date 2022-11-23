@@ -42,7 +42,6 @@ function getOutcome(userChoice, computerChoice) {
 
 // exports
 
-export {choices};
 export {getChoices};
 export {getComputerChoice};
 export {getOutcome};
