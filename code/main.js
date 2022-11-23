@@ -1,16 +1,21 @@
 import './styles.css';
 
-import {choices, getChoices, getComputerChoice, getOutcome} from './game.js'
-import {clearChildren} from './utils.js'
+import {choices, getChoices, getComputerChoice, getOutcome} from './game.js';
+import {clearChildren} from './utils.js';
+
+// images
+import Paper from "./assets/paper.png";
+import Rock from "./assets/rock.png";
+import Scissors from "./assets/scissors.png";
 
 function makeChoiceImage(choice) {
     const image = new Image(100, 100);
     if (choice === 'Scissors') {
-        image.src = './assets/scissors.png';
+        image.src = Scissors;
     } else if (choice === 'Rock') {
-        image.src = './assets/rock.png';
+        image.src = Rock;
     } else {
-        image.src = './assets/paper.png';
+        image.src = Paper;
     }
     image.alt = choice;
     return image;
