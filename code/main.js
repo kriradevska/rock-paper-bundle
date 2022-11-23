@@ -1,5 +1,8 @@
 import './styles.css';
 
+import {choices, getChoices, getComputerChoice, getOutcome} from './game.js'
+import {clearChildren} from './utils.js'
+
 function makeChoiceImage(choice) {
     const image = new Image(100, 100);
     if (choice === 'Scissors') {

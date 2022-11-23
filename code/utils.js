@@ -3,3 +3,6 @@ function clearChildren (node) {
       node.removeChild(node.firstChild);
     }
   }
+
+// export
+export {clearChildren};
